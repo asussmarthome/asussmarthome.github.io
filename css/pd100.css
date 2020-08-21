@@ -1,0 +1,18 @@
+body {
+	background-color:#ffffff;
+}
+
+.base {margin : 20px;}
+p    {
+max-width: 100%;
+padding: 5px 9px 5px 9px;
+color: #353535;
+font-size:18px;
+letter-spacing: 0.01;
+line-height: 1.6;
+font-family: 'Noto Sans TC', sans-serif;
+}
+
+img{
+max-width: 100%
+}
