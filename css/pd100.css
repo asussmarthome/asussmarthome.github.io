@@ -16,3 +16,82 @@ font-family: 'Noto Sans TC', sans-serif;
 img{
 max-width: 100%
 }
+
+
+
+table {
+border: 1px solid #cbcbcb;
+border-collapse: separate;
+
+
+border-radius: 20px;
+border-spacing: 0px;
+width:100%;
+
+}
+
+thead {
+display: table-header-group;
+vertical-align: middle;
+border-color: white;
+border-collapse: separate;
+background-color: #51b35e;
+}
+tr {
+display: table-row;
+vertical-align: inherit;
+border-color: inherit;
+}
+
+thead > tr {
+    height:43px;
+}
+
+th {
+    width:50%;
+    background-color: #51b35e;
+    border-top: none;
+    padding: 5px 4px 6px 4px;
+    text-align: center;
+    vertical-align: top;
+    border-left: 1px solid #fff;
+
+}
+
+td {
+padding: 5px 4px 6px 4px;
+text-align: left;
+vertical-align: center;
+border-left: 1px solid #cbcbcb;
+border-bottom: 1px solid #cbcbcb;
+border-top : none;
+}
+
+
+
+th:first-child , td:first-child {
+     border-left: none;
+}
+
+thead:first-child tr:first-child th:first-child {
+border-radius: 20px 0 0 0;
+}
+thead:first-child tr:first-child th:last-child {
+border-radius: 0 20px 0 0;
+
+}
+
+tr:last-child > td{
+border-bottom: none;
+}
+
+thead > tr> th > p {
+
+    color: #ffffff;
+    letter-spacing: 0.18;
+}
+
+tbody > tr > td > p {
+
+	padding: 18px 18px 18px 18px;
+}
